@@ -1,0 +1,33 @@
+Q. Explain JDK, JRE and JVM.
+ANSWER. JDK is a full software development kit used for developing Java applications.
+JRE is a package that contains everything needed to run Java programs but not to develop them.
+JVM is an abstract machine that runs Java bytecode, making Java platform-independent (Write Once, Run Anywhere).
+
+Q. Why Java is platform independent?
+ANSWER. Java is platform-independent because Java programs can run on any operating system without modification.
+This is achieved through the Java Virtual Machine (JVM), which acts as an intermediary between Java programs 
+and the underlying hardware.
+
+Q. Why java is not 100% Object-Oriented?
+ANSWER. Java is not considered 100% object-oriented because it includes primitive data types (int, char, boolean, etc.), 
+which are not objects.
+In a fully object-oriented language, everything should be an object, but Java allows primitive types for performance reasons.
+
+Q. List the five features of Java?
+ANSWER. 1. Platform Independence (Write Once, Run Anywhere - WORA)
+2. Object-Oriented Programming (OOP)
+3. Robust and Secure
+4. Multithreading (Concurrency Support)
+5. High Performance with Just-In-Time (JIT) Compiler
+
+Q. Which component is used to compile, debug and execute java program?
+ANSWER. The Java Development Kit (JDK) is the component used to compile, debug, and 
+execute Java programs. It includes all the necessary tools for Java development.
+
+Q. Which component is responsible to run java program?
+ANSWER. The Java Virtual Machine (JVM) is the component responsible for running Java programs.
+
+Q. What is use of interpreter?
+ANSWER. An interpreter is a program that translates and executes code line by line rather than compiling the entire 
+program at once.
+In Java, the Java Virtual Machine (JVM) uses an interpreter to convert bytecode into machine-specific code for execution.
